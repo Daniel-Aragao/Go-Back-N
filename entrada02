@@ -1,0 +1,8 @@
+A E pkt0
+B R pkt0
+A R ACK0
+timeout
+A E pkt0
+B R pkt0
+A R ACK0
+

@@ -1,0 +1,36 @@
+A E pkt0
+A E pkt1
+A E pkt2
+A E pkt3
+A E pkt4
+timeout
+A E pkt0
+A E pkt1
+A E pkt2
+A E pkt3
+A E pkt4
+B R pkt1
+B R pkt0
+B R pkt3
+B R pkt2
+B R pkt4
+timeout
+A E pkt0
+B R pkt0
+A E pkt1
+A E pkt2
+A E pkt3
+A E pkt4
+A R ACK0
+A R ACK0
+A R ACK0
+A R ACK0
+A R ACK0
+B R pkt1
+B R pkt2
+B R pkt3
+B R pkt4
+A R ACK1
+A R ACK2
+A R ACK3
+A R ACK4
