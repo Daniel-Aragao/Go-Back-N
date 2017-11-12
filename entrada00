@@ -1,0 +1,27 @@
+A E pkt0
+B R pkt0
+A E pkt1
+B R pkt1
+A E pkt2
+A E pkt3
+B R pkt3
+A R ACK0
+A E pkt4
+A R ACK1
+B R pkt4
+A E pkt5
+timeout
+B R pkt5
+A E pkt2
+A E pkt3
+A E pkt4
+B R pkt2
+A E pkt5
+B R pkt3
+B R pkt4
+B R pkt5
+A R ACK1
+A R ACK2
+A R ACK3
+A R ACK4
+A R ACK5

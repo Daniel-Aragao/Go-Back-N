@@ -50,9 +50,13 @@ class Leitor{
 class Escritor{
 	public static void writeLines(ArrayList<String> saida) throws IOException{
 		PrintWriter pw = new PrintWriter(new FileWriter("saida"));
-		for (String linha : saida) {
+		int length = saida.size();
+		for(int i = 0; i < length; i++){
+			String linha = saida.get(i);
 			pw.write(linha);
 			pw.println();
+			// if(i+1 < length){
+			// }
 		}
 		pw.close();
 	}
@@ -64,10 +68,11 @@ class GoBackN{
 
 	public GoBackN(ArrayList<String> linhas){
 		Linhas = linhas;
+		Saida = new ArrayList<String>();
 	}
 
 	public ArrayList<String> getSaida(){
-		return Linhas;
+		return Saida;
 	}
 
 	public void start(){
